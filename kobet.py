@@ -15,7 +15,7 @@ def pharseHeaders(headerStr):
     for h in headers:
         if len(h.strip()) > 0:
             tmp.append(h)
-
+#ㅅㄷㄴㅅ
     headers = {}
     for h in tmp:
         headers[h.split(":")[0]] = ': '.join(h.split(": ")[1:])
